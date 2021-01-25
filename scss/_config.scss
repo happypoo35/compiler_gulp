@@ -1,0 +1,7 @@
+$primary: black;
+
+@mixin size {
+  @media screen and (max-width: 1000px) {
+    @content;
+  }
+}
